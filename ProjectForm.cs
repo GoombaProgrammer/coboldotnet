@@ -90,7 +90,7 @@ namespace COBOL.NET
             ParsedCSCode = CSDefault;
             if (ParseCode(fastColoredTextBox1.Text))
             {
-                MessageBox.Show(ParsedCSCode);
+                //MessageBox.Show(ParsedCSCode);
                 CompileCSharpCode(ParsedCSCode, ProjectName + "\\" + "out.exe");
             }
             Refreshlistbox();
