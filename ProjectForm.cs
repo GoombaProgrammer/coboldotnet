@@ -418,7 +418,7 @@ namespace COBOL.NET
                 } while (line != null);
                 if (!include)
                 {
-                    ParsedCSCode += "\n        }\n        }";
+                    ParsedCSCode += "\n        }\n        }\n       }";
                 }
             }
             if (ERRORED)
